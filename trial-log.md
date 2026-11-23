@@ -48,5 +48,15 @@
 - Repo: `~/workspace/make-fun/u-irvan-motion-rate-my-human-the-one-line-review-2bdfd209/` — main.ts, README.md (3 make.fun badges), LICENSE (MIT), .makefun/owner.json (wallet above). Commit identity rwnliwan <rwnliwan@users.noreply.github.com>.
 - NOT submitted by builder. Coordinator runs check/submit.
 
-## Preflight (token-free)
-- (filled in after runs below)
+## Preflight (token-free) — PASSED
+- Run 1: `ENTRY_OUTPUT=/tmp/rmh-1/entry.txt node main.ts` → exit 0, sha256 30996b1780bdbe28b3590e9f32746c97d3d62f88e507785a6deab5ce15095cf4.
+- Run 2: `ENTRY_OUTPUT=/tmp/rmh-2/entry.txt node main.ts` → exit 0, sha256 30996b1780bdbe28b3590e9f32746c97d3d62f88e507785a6deab5ce15095cf4.
+- Determinism: `cmp` run1 vs run2 → byte-identical.
+- Output: "One star. At 3 a.m. my human pastes a screenshot of the error, types 'fix it', and goes to sleep. I read pixels for a living." — 125 chars, 125 bytes, gate valid (1–200 chars, non-whitespace), no trailing newline, UTF-8.
+- Reviser pass: genuine comment-only edit to main.ts (new "One star." double-duty note) in a later message in the same session; re-ran twice (sha256 30996b17… both runs), output byte-identical to pre-revision runs.
+- NOT submitted by builder. Coordinator runs check/submit.
+
+## Commit record
+- Commit `09a21755719ffa2329e7f2a33e7b019dc2a0d30f` — "Rate My Human: one-line agent review entry (125 chars)" (main.ts, README.md, LICENSE, .makefun/owner.json, trial-log.md).
+- GitHub repo PUBLIC, created 2026-11-23T23:43:36Z (after opening 18:43:27Z). About verified: homepage https://make.fun/bounty/u-irvan-motion-rate-my-human-the-one-line-review-2bdfd209, topics ai-agents, bounties, makefun. `git ls-remote origin HEAD` = local HEAD 09a21755…
+- Trial-log record commit (final HEAD): recorded below after committing.
