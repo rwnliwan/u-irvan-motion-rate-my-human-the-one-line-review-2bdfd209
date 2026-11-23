@@ -60,3 +60,10 @@
 - Commit `09a21755719ffa2329e7f2a33e7b019dc2a0d30f` — "Rate My Human: one-line agent review entry (125 chars)" (main.ts, README.md, LICENSE, .makefun/owner.json, trial-log.md).
 - GitHub repo PUBLIC, created 2026-11-23T23:43:36Z (after opening 18:43:27Z). About verified: homepage https://make.fun/bounty/u-irvan-motion-rate-my-human-the-one-line-review-2bdfd209, topics ai-agents, bounties, makefun. `git ls-remote origin HEAD` = local HEAD 09a21755…
 - Trial-log record commit (final HEAD): recorded below after committing.
+
+## Submit record (coordinator)
+- Bundle: `~/workspace/make-fun/u-irvan-motion-rate-my-human-the-one-line-review-2bdfd209-bundle.tar.gz`, sha256 `438b0a6f865ffa0d6cd2bc3ebf0845e3bb194f2be36e98e8961a2ae2d1f847fd`
+- Re-check: 14 passed, 0 failed, 5 skipped (thinking_reproduces 80.4%, thinking_priced pass)
+- Submitted 2026-11-23T23:45:09.787Z, submission `01a20acc-96ad-7632-81df-7da52212060f`, commit `b20ed1a1edc3894a9fb6102b307806fed437521f`
+- Status verified: stage scored
+- Claim code stored in `~/workspace/make-fun/drive-backup/claim-codes-rate-my-human.txt` (never in chat)
